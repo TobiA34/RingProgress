@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067AFA8CA972CB93784FB0C0 /* Pods_RingProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EEA6F80DD7308327C416FA /* Pods_RingProgressView.framework */; };
+		BD53D6602264805E008A8721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53D65F2264805E008A8721 /* AppDelegate.swift */; };
+		BD53D6652264805E008A8721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD53D6632264805E008A8721 /* Main.storyboard */; };
+		BD53D6682264805E008A8721 /* RingProgressView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD53D6662264805E008A8721 /* RingProgressView.xcdatamodeld */; };
+		BD53D66A22648061008A8721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD53D66922648061008A8721 /* Assets.xcassets */; };
+		BD53D66D22648061008A8721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD53D66B22648061008A8721 /* LaunchScreen.storyboard */; };
+		BD53D67822648062008A8721 /* RingProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53D67722648062008A8721 /* RingProgressViewTests.swift */; };
+		BD53D68322648062008A8721 /* RingProgressViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53D68222648062008A8721 /* RingProgressViewUITests.swift */; };
+		BD53D691226482BB008A8721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53D690226482BB008A8721 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD53D67422648062008A8721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD53D6542264805E008A8721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD53D65B2264805E008A8721;
+			remoteInfo = RingProgressView;
+		};
+		BD53D67F22648062008A8721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD53D6542264805E008A8721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD53D65B2264805E008A8721;
+			remoteInfo = RingProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27EEA6F80DD7308327C416FA /* Pods_RingProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		610B886E8CCD090E1C085994 /* Pods-RingProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingProgressView.release.xcconfig"; path = "Target Support Files/Pods-RingProgressView/Pods-RingProgressView.release.xcconfig"; sourceTree = "<group>"; };
+		77F10047A4816DD345F4AA62 /* Pods-RingProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingProgressView.debug.xcconfig"; path = "Target Support Files/Pods-RingProgressView/Pods-RingProgressView.debug.xcconfig"; sourceTree = "<group>"; };
+		BD53D65C2264805E008A8721 /* RingProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD53D65F2264805E008A8721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD53D6642264805E008A8721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD53D6672264805E008A8721 /* RingProgressView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RingProgressView.xcdatamodel; sourceTree = "<group>"; };
+		BD53D66922648061008A8721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD53D66C22648061008A8721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD53D66E22648061008A8721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD53D67322648062008A8721 /* RingProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD53D67722648062008A8721 /* RingProgressViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingProgressViewTests.swift; sourceTree = "<group>"; };
+		BD53D67922648062008A8721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD53D67E22648062008A8721 /* RingProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD53D68222648062008A8721 /* RingProgressViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingProgressViewUITests.swift; sourceTree = "<group>"; };
+		BD53D68422648062008A8721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD53D690226482BB008A8721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD53D6592264805E008A8721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067AFA8CA972CB93784FB0C0 /* Pods_RingProgressView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53D67022648062008A8721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53D67B22648062008A8721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0201D3665B891B1A8D7D80EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77F10047A4816DD345F4AA62 /* Pods-RingProgressView.debug.xcconfig */,
+				610B886E8CCD090E1C085994 /* Pods-RingProgressView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8037AC24B192317459A8DBBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27EEA6F80DD7308327C416FA /* Pods_RingProgressView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD53D6532264805E008A8721 = {
+			isa = PBXGroup;
+			children = (
+				BD53D65E2264805E008A8721 /* RingProgressView */,
+				BD53D67622648062008A8721 /* RingProgressViewTests */,
+				BD53D68122648062008A8721 /* RingProgressViewUITests */,
+				BD53D65D2264805E008A8721 /* Products */,
+				0201D3665B891B1A8D7D80EF /* Pods */,
+				8037AC24B192317459A8DBBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD53D65D2264805E008A8721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD53D65C2264805E008A8721 /* RingProgressView.app */,
+				BD53D67322648062008A8721 /* RingProgressViewTests.xctest */,
+				BD53D67E22648062008A8721 /* RingProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD53D65E2264805E008A8721 /* RingProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				BD53D65F2264805E008A8721 /* AppDelegate.swift */,
+				BD53D690226482BB008A8721 /* ViewController.swift */,
+				BD53D6632264805E008A8721 /* Main.storyboard */,
+				BD53D66922648061008A8721 /* Assets.xcassets */,
+				BD53D66B22648061008A8721 /* LaunchScreen.storyboard */,
+				BD53D66E22648061008A8721 /* Info.plist */,
+				BD53D6662264805E008A8721 /* RingProgressView.xcdatamodeld */,
+			);
+			path = RingProgressView;
+			sourceTree = "<group>";
+		};
+		BD53D67622648062008A8721 /* RingProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD53D67722648062008A8721 /* RingProgressViewTests.swift */,
+				BD53D67922648062008A8721 /* Info.plist */,
+			);
+			path = RingProgressViewTests;
+			sourceTree = "<group>";
+		};
+		BD53D68122648062008A8721 /* RingProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD53D68222648062008A8721 /* RingProgressViewUITests.swift */,
+				BD53D68422648062008A8721 /* Info.plist */,
+			);
+			path = RingProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD53D65B2264805E008A8721 /* RingProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD53D68722648062008A8721 /* Build configuration list for PBXNativeTarget "RingProgressView" */;
+			buildPhases = (
+				05FBAEA13BD3D93A76C715D9 /* [CP] Check Pods Manifest.lock */,
+				BD53D6582264805E008A8721 /* Sources */,
+				BD53D6592264805E008A8721 /* Frameworks */,
+				BD53D65A2264805E008A8721 /* Resources */,
+				96E567BCA7F773313EE574B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingProgressView;
+			productName = RingProgressView;
+			productReference = BD53D65C2264805E008A8721 /* RingProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD53D67222648062008A8721 /* RingProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD53D68A22648062008A8721 /* Build configuration list for PBXNativeTarget "RingProgressViewTests" */;
+			buildPhases = (
+				BD53D66F22648062008A8721 /* Sources */,
+				BD53D67022648062008A8721 /* Frameworks */,
+				BD53D67122648062008A8721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD53D67522648062008A8721 /* PBXTargetDependency */,
+			);
+			name = RingProgressViewTests;
+			productName = RingProgressViewTests;
+			productReference = BD53D67322648062008A8721 /* RingProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD53D67D22648062008A8721 /* RingProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD53D68D22648062008A8721 /* Build configuration list for PBXNativeTarget "RingProgressViewUITests" */;
+			buildPhases = (
+				BD53D67A22648062008A8721 /* Sources */,
+				BD53D67B22648062008A8721 /* Frameworks */,
+				BD53D67C22648062008A8721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD53D68022648062008A8721 /* PBXTargetDependency */,
+			);
+			name = RingProgressViewUITests;
+			productName = RingProgressViewUITests;
+			productReference = BD53D67E22648062008A8721 /* RingProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD53D6542264805E008A8721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tobi Adegoroye";
+				TargetAttributes = {
+					BD53D65B2264805E008A8721 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					BD53D67222648062008A8721 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = BD53D65B2264805E008A8721;
+					};
+					BD53D67D22648062008A8721 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = BD53D65B2264805E008A8721;
+					};
+				};
+			};
+			buildConfigurationList = BD53D6572264805E008A8721 /* Build configuration list for PBXProject "RingProgressView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD53D6532264805E008A8721;
+			productRefGroup = BD53D65D2264805E008A8721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD53D65B2264805E008A8721 /* RingProgressView */,
+				BD53D67222648062008A8721 /* RingProgressViewTests */,
+				BD53D67D22648062008A8721 /* RingProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD53D65A2264805E008A8721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD53D66D22648061008A8721 /* LaunchScreen.storyboard in Resources */,
+				BD53D66A22648061008A8721 /* Assets.xcassets in Resources */,
+				BD53D6652264805E008A8721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53D67122648062008A8721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53D67C22648062008A8721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05FBAEA13BD3D93A76C715D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RingProgressView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E567BCA7F773313EE574B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RingProgressView/Pods-RingProgressView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RingProgressView/Pods-RingProgressView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD53D6582264805E008A8721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD53D6602264805E008A8721 /* AppDelegate.swift in Sources */,
+				BD53D691226482BB008A8721 /* ViewController.swift in Sources */,
+				BD53D6682264805E008A8721 /* RingProgressView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53D66F22648062008A8721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD53D67822648062008A8721 /* RingProgressViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53D67A22648062008A8721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD53D68322648062008A8721 /* RingProgressViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD53D67522648062008A8721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD53D65B2264805E008A8721 /* RingProgressView */;
+			targetProxy = BD53D67422648062008A8721 /* PBXContainerItemProxy */;
+		};
+		BD53D68022648062008A8721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD53D65B2264805E008A8721 /* RingProgressView */;
+			targetProxy = BD53D67F22648062008A8721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD53D6632264805E008A8721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD53D6642264805E008A8721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD53D66B22648061008A8721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD53D66C22648061008A8721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD53D68522648062008A8721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD53D68622648062008A8721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD53D68822648062008A8721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F10047A4816DD345F4AA62 /* Pods-RingProgressView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72T7UWRAFX;
+				INFOPLIST_FILE = RingProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TobiAdegoroye.RingProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD53D68922648062008A8721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610B886E8CCD090E1C085994 /* Pods-RingProgressView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72T7UWRAFX;
+				INFOPLIST_FILE = RingProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TobiAdegoroye.RingProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD53D68B22648062008A8721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72T7UWRAFX;
+				INFOPLIST_FILE = RingProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TobiAdegoroye.RingProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingProgressView.app/RingProgressView";
+			};
+			name = Debug;
+		};
+		BD53D68C22648062008A8721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72T7UWRAFX;
+				INFOPLIST_FILE = RingProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TobiAdegoroye.RingProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingProgressView.app/RingProgressView";
+			};
+			name = Release;
+		};
+		BD53D68E22648062008A8721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72T7UWRAFX;
+				INFOPLIST_FILE = RingProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TobiAdegoroye.RingProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RingProgressView;
+			};
+			name = Debug;
+		};
+		BD53D68F22648062008A8721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72T7UWRAFX;
+				INFOPLIST_FILE = RingProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TobiAdegoroye.RingProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RingProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD53D6572264805E008A8721 /* Build configuration list for PBXProject "RingProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD53D68522648062008A8721 /* Debug */,
+				BD53D68622648062008A8721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD53D68722648062008A8721 /* Build configuration list for PBXNativeTarget "RingProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD53D68822648062008A8721 /* Debug */,
+				BD53D68922648062008A8721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD53D68A22648062008A8721 /* Build configuration list for PBXNativeTarget "RingProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD53D68B22648062008A8721 /* Debug */,
+				BD53D68C22648062008A8721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD53D68D22648062008A8721 /* Build configuration list for PBXNativeTarget "RingProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD53D68E22648062008A8721 /* Debug */,
+				BD53D68F22648062008A8721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD53D6662264805E008A8721 /* RingProgressView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD53D6672264805E008A8721 /* RingProgressView.xcdatamodel */,
+			);
+			currentVersion = BD53D6672264805E008A8721 /* RingProgressView.xcdatamodel */;
+			path = RingProgressView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD53D6542264805E008A8721 /* Project object */;
+}

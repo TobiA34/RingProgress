@@ -1,0 +1,35 @@
+//
+//  ViewController.swift
+//  RingProgressView
+//
+//  Created by Tobi Adegoroye on 15/04/2019.
+//  Copyright © 2019 Tobi Adegoroye. All rights reserved.
+//
+
+import UIKit
+import MBCircularProgressBar
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var progressView1: MBCircularProgressBarView!
+    
+    @IBOutlet weak var progressView2: MBCircularProgressBarView!
+    
+    @IBOutlet weak var progressView3: MBCircularProgressBarView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.progressView1.value = 0
+         self.progressView2.value = 0
+         self.progressView3.value = 0
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        UIView.animate(withDuration: 10.0){
+            self.progressView1.value = 60
+            self.progressView2.value = 30
+            self.progressView3.value = 20
+        }
+    }
+}
